@@ -1,0 +1,642 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    
+    <!--====== Title ======-->
+    <title>Live Data Coronavirus Indonesia & Global</title>
+    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/logo/logo-2.png" type="image/png">
+        
+    <!--====== Magnific Popup CSS ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="assets/css/slick.css">
+        
+    <!--====== Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+    
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+</head>
+
+<body>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+    
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====== PRELOADER PART ENDS ======-->
+	
+    <!--====== NAVBAR TWO PART START ======-->
+
+    <section class="navbar-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                       
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/images/logo/logo.png" alt="Logo">
+                        </a>
+                        
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTwo" aria-controls="navbarTwo" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse sub-menu-bar" id="navbarTwo">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item active"><a class="page-scroll" href="#home">home</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#indonesia">Indonesia</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#provinsi">Provinsi </a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#global">Global</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#about">Tentang</a></li>
+                                <li class="nav-item"><a class="page-scroll" href="#odp">ODP/PDP Pontianak</a></li>
+                            </ul>
+                        </div>
+                    </nav> <!-- navbar -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== NAVBAR TWO PART ENDS ======-->
+    
+    <!--====== SLIDER PART START ======-->
+
+    <section id="home" class="slider_area">
+        <div id="carouselThree" class="carousel slide" data-ride="carousel">
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="slider-content">
+                                    <h1 class="title">Virus Corona COVID-19</h1>
+                                    <p class="text">Data yang ditampilakan diambil dari Kementrian Kesehatan, JHU, dan Data Kota Pontianak.</p>
+                                    <ul class="slider-btn rounded-buttons">
+                                        <li><a class="main-btn rounded-one" href="#lindungi">Cara Melindungi Diri</a></li>
+                                        <li><a class="main-btn rounded-two" href="http://checkupcovid19.kalbarprov.go.id/selftest" target="_blank">Self Check Up COVID-19</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> <!-- row -->
+                    </div> <!-- container -->
+                    <div class="slider-image-box d-none d-lg-flex align-items-end">
+                        <div class="slider-image">
+                            <img src="assets/images/slider/01.png" alt="Hero">
+                        </div> <!-- slider-imgae -->
+                    </div> <!-- slider-imgae box -->
+                </div> <!-- carousel-item -->
+            </div>
+
+        </div>
+    </section>
+
+    <!--====== SLIDER PART ENDS ======-->
+    
+    <!--====== FEATRES TWO PART START ======-->
+
+    <section id="indonesia" class="features-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="section-title text-center pb-10">
+                        <h3 class="title">Data Kasus Coronavirus di Indonesia</h3>
+                        <p class="text">Sumber data : Kementerian Kesehatan & Johns Hopkins University. Update terakhir : <span id='tanggal'/><span id='jam'/> WIB</p>
+                    </div> <!-- row -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-features mt-40">
+                        <div class="features-title-icon d-flex justify-content-between">
+                            <h2 class="title text-muted">TOTAL POSITIF</h2>
+                            <div class="features-icon">
+                                <img width="70" src="assets/images/sad.png" alt="positif" height="70">
+                            </div>
+                        </div>
+                        <div class="features-content">
+                            <h1 class="title"><span id='positif'>0</span></h1>
+                            <h5 class="asd text-muted" href="">ORANG</h5>
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-features mt-40">
+                        <div class="features-title-icon d-flex justify-content-between">
+                            <h2 class="title text-muted">TOTAL SEMBUH</h2>
+                            <div class="features-icon">
+                                <img width="70" src="assets/images/happy.png" alt="positif" height="70">
+                            </div>
+                        </div>
+                        <div class="features-content">
+                            <h1 class="title"><span id='sembuh'></span></h1>
+                            <h5 class="asd text-muted" href="#">ORANG</h5>
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-features mt-40">
+                        <div class="features-title-icon d-flex justify-content-between">
+                            <h2 class="title text-muted">TOTAL MENINGGAL</h4>
+                            <div class="features-icon">
+                                <img width="70" src="assets/images/emoji.png" alt="positif" height="70">
+                            </div>
+                        </div>
+                        <div class="features-content">
+                            <h1 class="title"><span id='meninggal'></span></h1>
+                            <h5 class="asd text-muted" href="#">ORANG</h5>
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+                <div class="col-lg-4 col-md-7 col-sm-9">
+                    <div class="single-features mt-40">
+                        <div class="features-title-icon d-flex justify-content-between">
+                            <h2 class="title text-muted">TINGKAT KEMATIAN</h2>
+                            <div class="features-icon">
+                                <img width="70" src="assets/images/indonesia.png" alt="positif" height="70">
+                            </div>
+                        </div>
+                        <div class="features-content">
+                            <h1 class="title"><span id='total'></span></h1>
+                            <h5 class="asd text-muted" href="#">ORANG</h5>
+                        </div>
+                    </div> <!-- single features -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== FEATRES TWO PART ENDS ======-->
+    
+    <!--====== PORTFOLIO PART START ======-->
+
+    <section id="provinsi" class="portfolio-area portfolio-four pb-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="section-title text-center pb-10">
+                        <h3 class="title">Tabel Kasus</h3>
+                        <p class="text">Data Kasus Coronavirus di Indonesia Berdasarkan Provinsi</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+<div class='table-responsive'>
+<table class='table table-bordered table-striped'>
+<thead class=''><tr><th class='text-center' scope='col'>NO</th><th scope='col'>Provinsi</th><th scope='col'>Positif</th><th scope='col'>Sembuh</th><th scope='col'>Meninggal</th></tr></thead>
+<tbody id='arrayProvinsi'/>
+</table>
+</div>
+<div class='mt-3 blockquote text-center'>Data realtime diambil dari data API Kawalcorona Indonesia</div>
+        </div> <!-- container -->
+    </section>
+
+    <!--====== PORTFOLIO PART ENDS ======-->
+    
+    <!--====== PRINICNG START ======-->
+
+    <section id="global" class="pricing-area ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="section-title text-center pb-25">
+                        <h3 class="title">Data Kasus Coronavirus di Dunia</h3>
+                        <p class="text">Sumber data : Kementerian Kesehatan & Johns Hopkins University. Update terakhir : <span id='tanggal'/><span id='jam'/> WIB</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row justify-content-center">
+                <div class="tabs">
+                    <div class="pricing-style mt-30">
+                        <div class="pricing-icon text-center">
+                            <img src="https://kawalcorona.com/uploads/sad-u6e.png" alt="">
+                        </div>
+                        <div class="pricing-header text-center">
+                            <h5 class="sub-title">Positif</h5>
+                            <p class="month"><span class="price" id='Gpositif'>0</span></p>
+                        </div>
+                        <div class="pricing-header text-center">
+                            <h5 class="sub-title">Orang</h5>
+                        </div>    
+                    </div> <!-- pricing style one -->
+                </div>
+                
+                <div class="tabs">
+                    <div class="pricing-style mt-30">
+                        <div class="pricing-icon text-center">
+                            <img src="https://kawalcorona.com/uploads/happy-ipM.png" alt="">
+                        </div>
+                        <div class="pricing-header text-center">
+                            <h5 class="sub-title">Sembuh</h5>
+                            <p class="month"><span class="price" id='Gsembuh'>0</span>
+                        </div>
+                        <div class="pricing-header text-center">
+                            <h5 class="sub-title">Orang</h5>
+                        </div> 
+                    </div> <!-- pricing style one -->
+                </div>
+                
+                <div class="tabs">
+                    <div class="pricing-style mt-30">
+                        <div class="pricing-icon text-center">
+                            <img src="https://kawalcorona.com/uploads/emoji-LWx.png" alt="">
+                        </div>
+                        <div class="pricing-header text-center">
+                            <h5 class="sub-title">Meninggal</h5>
+                            <p class="month"><span class="price" id='Gmeninggal'>0</span></p>
+                        </div>
+                        <div class="pricing-header text-center">
+                            <h5 class="sub-title">Orang</h5>
+                        </div> 
+                    </div> <!-- pricing style one -->
+                </div>
+				
+                <div class="tabs">
+                    <div class="pricing-style mt-30">
+                        <div class="pricing-icon text-center">
+                            <img src="https://covid-19.subangxploits.xyz/assets/images/globe.png" alt="">
+                        </div>
+                        <div class="pricing-header text-center">
+                            <h5 class="sub-title">Tingkat Kematian</h5>
+                            <p class="month"><span class="price" id='Gtotal'>0%</span></p>
+                        </div>
+                        <div class="pricing-header text-center">
+                            <h5 class="sub-title">Orang</h5>
+                        </div> 
+                    </div> <!-- pricing style one -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== PRINICNG ENDS ======-->
+    
+    <!--====== ABOUT PART START ======-->
+
+    <section id="about" class="about-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="faq-content mt-45">
+                        <div class="about-title">
+                            <h6 class="sub-title">Sedikit Penjelasan Coronavirus</h6>
+                            <h4 class="title">Tentang COVID-19</h4>
+                        </div> <!-- faq title -->
+                        <div class="about-accordion">
+                            <div class="accordion" id="accordionExample">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Apa Itu COVID-19</a>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p class="text">Coronavirus Disease 2019 atau COVID-19 adalah penyakit baru yang dapat menyebabkan gangguan pernapasan dan radang paru. Penyakit ini disebabkan oleh infeksi Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2). Gejala klinis yang muncul beragam, mulai dari seperti gejala flu biasa (batuk, pilek, nyeri tenggorok, nyeri otot, nyeri kepala) sampai yang berkomplikasi berat (pneumonia atau sepsis).</p>
+                                        </div>
+                                    </div> 
+                                </div> <!-- card -->
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bagaimana COVID-19 Menular?</a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p class="text">COVID-19 adalah penyakit baru dan para peneliti masih mempelajari bagaimana cara penularannya. Dari berbagai penelitian, metode penyebaran utama penyakit ini diduga adalah melalui droplet saluran pernapasan dan kontak dekat dengan penderita. Droplet merupakan partikel kecil dari mulut penderita yang dapat mengandung virus penyakit, yang dihasilkan pada saat batuk, bersin, atau berbicara. Droplet dapat melewati sampai jarak tertentu (biasanya 1 meter).
+
+Droplet bisa menempel di pakaian atau benda di sekitar penderita pada saat batuk atau bersin. Namun, partikel droplet cukup besar sehingga tidak akan bertahan atau mengendap di udara dalam waktu yang lama. Oleh karena itu, orang yang sedang sakit, diwajibkan untuk menggunakan masker untuk mencegah penyebaran droplet. Untuk penularan melalui makanan, sampai saat ini belum ada bukti ilmiahnya.</p>
+                                        </div>
+                                    </div>
+                                </div> <!-- card -->
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <a href="#" class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Gejala COVID-19</a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <p class="text">Gejala COVID-19 mulai dari seperti gejala flu biasa sampai kondisi berat seperti pneumonia (radang paru akut yang gejalanya sesak napas). Jika Anda mengalami gejala di atas dan ada riwayat perjalanan dari Negara Tiongkok/Terjangkit atau Anda berpaparan dengan orang positif/kemungkinan menderita COVID-19, maka Anda dihimbau untuk menghubungi nomor Jakarta Tanggap COVID-19 melalui 112 atau pesan Whatsapp melalui 081 388 376 955 atau 081 112 112 112.</p>
+                                        </div>
+                                    </div>
+                                </div> <!-- card -->
+                            </div>
+                        </div> <!-- faq accordion -->
+                    </div> <!-- faq content -->
+                </div>
+                <div class="col-lg-7">
+                    <div class="about-image mt-50">
+                        <img src="https://tubankab.go.id/theme/newtubankab/assets/covid19/images/what-corona.svg?3c5be0686a" alt="about">
+                    </div> <!-- faq image -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+    
+    <!--====== TESTIMONIAL PART START ======-->
+
+    <section id="lindungi" class="testimonial-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="section-title text-center pb-10">
+                        <h3 class="title">Melindungi Diri dari COVID-19</h3>
+                        <p class="text">Ada beberapa hal yang dapat Anda lakukan untuk mencegah atau membantu
+menghentikan penyebaran coronavirus, antara lain:</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row --> <!-- row -->
+			<div class="text-center pt-5" style="padding-bottom:30px">
+                <h3><b>Hal yang Harus Dilakukan</b></h3>
+            </div>
+            <div class="row justify-content-center" style="padding-bottom:20px;">
+                <div class="col-md-1 text-center"></div>
+                <div class="col-md-3 text-center">
+                                <img src="https://corona.jakarta.go.id/img/logo/do-kerja-dari-rumah.png" alt="">
+                                <br>
+                                <p class="melindungi-diri">Tetap tinggal di rumah; bekerja dari rumah, belajar dari rumah, dan beribadah di rumah</p>
+                </div>
+                <div class="col-md-3 text-center">
+                                <img src="https://corona.jakarta.go.id/img/logo/do-cuci-tangan.png" alt="">
+                                <br>
+                                <p class="melindungi-diri">Cuci tangan dengan sabun dan air minimal 20 detik atau gunakan hand sanitizer berbasis alkohol minimal 60 %</p>
+                </div>
+                <div class="col-md-3 text-center">
+                                <img src="https://corona.jakarta.go.id/img/logo/do-bersihkan.png" alt="">
+                                <br>
+                                <p class="melindungi-diri">Bersihkan dan disinfeksi permukaan benda yang sering disentuh</p>
+                </div>
+                <div class="col-md-1 text-center"></div>
+            </div>
+            <div class="row justify-content-center" style="padding-bottom:20px;">
+                <div class="col-md-1 text-center"></div>
+                <div class="col-md-3 text-center">
+                                <img src="https://corona.jakarta.go.id/img/logo/do-tutup-mulut.png" alt="">
+                                <br>
+                                <p class="melindungi-diri">Tutupi mulut dan hidung saat batuk atau bersin dengan tisu atau siku bagian dalam</p>
+                </div>
+                <div class="col-md-3 text-center">
+                                <img src="https://corona.jakarta.go.id/img/logo/do-masker.png" alt="">
+                                <br>
+                                <p class="melindungi-diri">Kenakan masker hanya jika Anda sakit. Ganti masker secara berkala dan tetap tinggal di rumah</p>
+                </div>
+                <div class="col-md-3 text-center">
+                                <img src="https://corona.jakarta.go.id/img/logo/do-pola-hidup.png" alt="">
+                                <br>
+                                <p class="melindungi-diri">Terapkan pola hidup sehat dengan makanan bergizi dan olahraga</p>
+                </div>
+                <div class="col-md-1 text-center"></div>
+            </div>
+            <div class="text-center pt-5" style="padding-bottom:30px">
+                <h3><b>Hal yang Tidak Boleh Dilakukan</b></h3>
+            </div>
+            <div class="row justify-content-center" style="padding-bottom:20px;">
+                <div class="col-md-3 text-center">
+                                <img src="https://corona.jakarta.go.id/img/logo/dont-jaga-jarak.png" alt="">
+                                <br>
+                                <p class="melindungi-diri">Berada dekat dengan orang yang sedang sakit, batuk atau bersin</p>
+                </div>
+                <div class="col-md-3 text-center">
+                                <img src="https://corona.jakarta.go.id/img/logo/dont-menyentuh.png" alt="">
+                                <br>
+                                <p class="melindungi-diri">Menyentuh mata, hidung, atau mulut dengan telapak tangan</p>
+                </div>
+                <div class="col-md-3 text-center">
+                                <img src="https://corona.jakarta.go.id/img/logo/dont-timbun-masker.png" alt="">
+                                <br>
+                                <p class="melindungi-diri">Menimbun masker</p>
+                </div>
+                <div class="col-md-3 text-center">
+                                <img src="https://corona.jakarta.go.id/img/logo/dont-bepergian.png" alt="">
+                                <br>
+                                <p class="melindungi-diri">Bepergian ke luar rumah saat sedang sakit</p>
+                </div>
+            </div>
+        </div> <!-- container -->
+    </section>
+
+    <!--====== TESTIMONIAL PART ENDS ======-->
+    
+    <!--====== TEAM START ======-->
+
+    <section id="hotline" class="team-area pt-120 pb-130">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="section-title text-center pb-30">
+                        <h3 class="title">Hotline</h3>
+                        <p class="text">Layanan darurat via telepon yang disediakan oleh Kemkes, Dinkes Pemprov Kalimantan barat, dan juga Kota Pontianak.</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <!-- ROW-1 OPEN -->
+						<div class="row">
+							<div class="col-sm-12 col-md-12 col-lg-6 col-xl-3 ">
+								<div class="hotline">
+									<div class="card-body">
+										<div class="item-box text-center">
+											<div class=" text-center  mb-4 text-primary"><img src="https://kawalcorona.com/uploads/unnamed-9mT.png" width="50" height="50" alt="Logo Daerah"></div>
+											<div class="item-box-wrap">
+												<a href="tel:119"><h5 class="mb-2">119 Ext 9</h5></a>
+												<p class="text-muted mb-0">Kementrian Kesehatan</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-12 col-lg-6 col-xl-3">
+								<div class="hotline">
+									<div class="card-body">
+										<div class="item-box text-center">
+											<div class=" text-center text-danger-gradient mb-4"><img src="https://diskominfo.kalbarprov.go.id/wp-content/uploads/2017/04/cropped-kalbar.png" width="50" height="50" alt="Logo Daerah"></div>
+											<div class="item-box-wrap">
+												<a href="tel:05618176537"><h5 class="mb-2">0561-8176537</h5></a>
+												<p class="text-muted mb-0">Dinkes Kalimantan Barat</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-12 col-lg-6 col-xl-3">
+								<div class="hotline">
+									<div class="card-body">
+										<div class="item-box text-center">
+											<div class=" text-center text-success mb-4"><img src="https://covid19.pontianakkota.go.id/frontend/images/logo/ptk.png" width="60" height="50" alt="Logo Daerah"> </div>
+											<div class="item-box-wrap">
+												<a href="tel:0561737631"><h5 class="mb-2">0561-737631</h5></a>
+												<p class="text-muted mb-0">Kota Pontianak</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-12 col-lg-6 col-xl-3">
+								<div class="hotline">
+									<div class="card-body">
+										<div class="item-box text-center">
+											<div class="text-center text-warning-gradient mb-4"><img src="https://diskominfo.kalbarprov.go.id/wp-content/uploads/2017/04/cropped-kalbar.png" width="50" height="50" alt="Logo Daerah"> </i></div>
+											<div class="item-box-wrap">
+												<a href="wa.me/6281292119119"><h5 class="mb-2">0812-9211-9119</h5></a>
+												<p class="text-muted mb-0">Dinkes Kalbar (WA)</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- ROW-1 CLOSE --> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== TEAM  ENDS ======-->
+    
+    <!--====== CONTACT PART START ======-->
+
+    <section id="odp" class="contact-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-10">
+                    <div class="section-title text-center pb-30">
+                        <h3 class="title">ODP / PDP Pontianak</h3>
+                        <p class="text">Data Kasus Orang Dalam Pemantauan (ODP) / Pasien Dalam Pengawasan (PDP) di Kota Pontianak. Sumber Data: Peta Persebaran Pontianak Kota</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+			<div class='table-responsive'>
+				<table class='table table-bordered table-striped'>
+					<tbody id='inmateRoster'/>
+				</table>
+			</div>
+        </div> <!-- container -->
+    </section>
+
+    <!--====== CONTACT PART ENDS ======-->
+    
+    <!--====== FOOTER PART START ======-->
+  
+    <section class="footer-area footer-dark">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="footer-logo text-center">
+                        <a class="mt-30" href="index.html"><img src="assets/images/logo/logo.png" alt="Logo"></a>
+                    </div> <!-- footer logo -->
+                    <ul class="social text-center mt-60">
+                        <li><a href="https://facebook.com/myabdurrahim.id"><i class="lni lni-facebook-filled"></i></a></li>
+                        <li><a href="https://twitter.com/abdurrahim_ID"><i class="lni lni-twitter-original"></i></a></li>
+                        <li><a href="https://instagram.com/abdurrahim_id"><i class="lni lni-instagram-original"></i></a></li>
+                        <li><a href="https://www.myabdurrahim.com"><i class="lni lni-blogger"></i></a></li>
+                    </ul> <!-- social -->
+                    <div class="footer-support text-center">
+                        <span class="mail">me@myabdurrahim.com </span>
+                    </div>
+                    <div class="copyright text-center mt-35">
+                        <p class="text">Dibuat dengan <i class="fa fa-heart heartbeat animate-infinite-heartbeat"></i> Oleh <a href="https://www.myabdurrahim.com" rel="nofollow"> Kamu</a></p>
+                    </div> <!--  copyright -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+    <!--====== FOOTER PART ENDS ======-->
+    
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->    
+
+    <!--====== PART START ======-->
+
+<!--
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!--====== PART ENDS ======-->
+
+
+
+
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/all.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/fontawesome.js"></script>
+    
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    
+    <!--====== Ajax Contact js ======-->
+    <script src="assets/js/ajax-contact.js"></script>
+    
+    <!--====== Isotope js ======-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/data.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+.text-muted {
+  color: #8898aa !important;
+}
+.asd {
+  margin: 10px 0 0 0;
+}
+.single-features{
+	padding:20px;
+	background:#fff;
+	box-shadow:0 0 2rem 0 rgba(136, 152, 170, 0.15);
+	border-radius:20px;
+}
+.tabs{
+	width:23%;
+	margin:0 10px;
+}
+.pricing-style .pricing-icon img {
+    width: 128px;
+}
+.features-area{
+    background-color: #f4f6f7;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+.portfolio-area {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.pricing-area {
+    background-color: #f4f6f7;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.about-area {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    position: relative;
+}
+.testimonial-area {
+    padding-top: 80px;
+    padding-bottom: 70px;
+    background-color: #f4f6f7;
+}
+.table-responsive {
+    display: block;
+    width: 100%;
+    height: 550px;
+    overflow-x: auto;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.hotline{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+	box-shadow:0 0 2rem 0 rgba(136, 152, 170, 0.15);
+    border-radius: 20px;
+}
+.carousel-item .slider-image-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 75%;
+    z-index: 9;
+}
+.fa {
+  color: #fff;
+  font-size: 50px;
+  line-height: 50px;
+}
+@-webkit-keyframes heartbeat {
+  0% {
+    -webkit-transform:scale(1)
+  }
+  50% {
+    -webkit-transform:scale(1.4)
+  }
+  100% {
+    -webkit-transform:scale(1)
+  }
+}
+
+@-moz-keyframes heartbeat {
+  0% {
+    -moz-transform:scale(1)
+  }
+  50% {
+    -moz-transform:scale(1.4)
+  }
+  100% {
+    -moz-transform:scale(1)
+  }
+}
+
+@-o-keyframes heartbeat {
+  0% {
+    -o-transform:scale(1)
+  }
+  50% {
+    -o-transform:scale(1.4)
+  }
+  100% {
+    -o-transform:scale(1)
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    transform:scale(1)
+  }
+  50% {
+    transform:scale(1.4)
+  }
+  100% {
+    transform:scale(1)
+  }
+}
+
+.heartbeat {
+  -webkit-animation-name: heartbeat;
+  -moz-animation-name: heartbeat;
+  -o-animation-name: heartbeat;
+  animation-name: heartbeat;
+}
+
+.animate-infinite-heartbeat {
+  -webkit-animation: heartbeat 2s infinite;
+  animation: heartbeat 2s infinite;
+}
+ .footer-bottomkanan i.fa.fa-heart{color:#f84436;margin:0 4px;animation:heart 2s infinite ease}
+@media screen and (max-width:840px) {
+	.justify-content-between{
+		height:40px;
+	}
+	.text-muted {
+		font-size:25px;
+	}
+	.tabs{
+	width:100%;
+	}
+	.hotline{
+    margin: 10px 0;
+	}
+}
